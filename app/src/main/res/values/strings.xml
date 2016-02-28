@@ -1,0 +1,22 @@
+<resources>
+    <!-- Application Name -->
+    <string name="app_name">TipTopShave</string>
+
+    <!-- Title text -->
+    <string name="title">Tip Top Shave</string>
+
+    <!-- Tip 1 title -->
+    <string name="tip1Title">Getting Ready</string>
+
+    <!-- Tip 2 title -->
+    <string name="tip2Title">First Pass</string>
+
+    <!-- Tip 3 title -->
+    <string name="tip3Title">Don\'t Miss Anything!</string>
+
+    <!-- Tip 4 title -->
+    <string name="tip4Title">Final Check</string>
+
+    <!-- Tip 5 title -->
+    <string name="tip5Title">Cleaning Up</string>
+</resources>
