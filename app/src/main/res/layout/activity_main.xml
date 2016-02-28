@@ -1,0 +1,146 @@
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.davidpellegrini.tiptopshave.MainActivity">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/activity_horizontal_margin"
+            android:text="@string/title"
+            android:textColor="@color/colorPrimary"
+            android:textSize="34sp"
+            android:layout_weight="1"
+            android:textStyle="italic|bold"/>
+    
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.2dp"
+            android:background="@color/colorAccent"
+            android:visibility="visible"/>
+
+    <LinearLayout
+        android:id="@+id/tip1LinearLayout"
+        style="@style/closedMenuLinearLayout"
+        android:clickable="true"
+        android:onClick="toggleContents">
+
+        <ImageButton
+            android:id="@+id/tip1ImageButton"
+            style="@style/imageButtons"
+            android:src="@drawable/ic_keyboard_arrow_right_24dp"/>
+
+        <TextView
+            android:id="@+id/tip1Title"
+            style="@style/closedMenuTextView"
+            android:layout_weight="1"
+            android:text="@string/tip1Title"/>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_weight="60"
+        android:id="@+id/tip1Body"></ScrollView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.2dp"
+        android:background="@color/colorAccent"
+        android:visibility="visible"/>
+
+    <LinearLayout
+        android:id="@+id/tip2LinearLayout"
+        style="@style/closedMenuLinearLayout"
+        android:clickable="true">
+
+        <ImageButton
+            android:id="@+id/tip2ImageButton"
+            style="@style/imageButtons"
+            android:src="@drawable/ic_keyboard_arrow_right_24dp"/>
+
+        <TextView
+            android:id="@+id/tip2Title"
+            style="@style/closedMenuTextView"
+            android:layout_weight="1"
+            android:text="@string/tip2Title"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.2dp"
+        android:background="@color/colorAccent"
+        android:visibility="visible"/>
+
+    <LinearLayout
+        android:id="@+id/tip3LinearLayout"
+        style="@style/closedMenuLinearLayout"
+        android:clickable="true">
+
+        <ImageButton
+            android:id="@+id/tip3ImageButton"
+            style="@style/imageButtons"
+            android:src="@drawable/ic_keyboard_arrow_right_24dp"/>
+
+        <TextView
+            android:id="@+id/tip3Title"
+            style="@style/closedMenuTextView"
+            android:layout_weight="1"
+            android:text="@string/tip3Title"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.2dp"
+        android:background="@color/colorAccent"
+        android:visibility="visible"/>
+
+    <LinearLayout
+        android:id="@+id/tip4LinearLayout"
+        style="@style/closedMenuLinearLayout"
+        android:clickable="true">
+
+        <ImageButton
+            android:id="@+id/tip4ImageButton"
+            style="@style/imageButtons"
+            android:src="@drawable/ic_keyboard_arrow_right_24dp"/>
+
+        <TextView
+            android:id="@+id/tip4Title"
+            style="@style/closedMenuTextView"
+            android:layout_weight="1"
+            android:text="@string/tip4Title"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.2dp"
+        android:background="@color/colorAccent"
+        android:visibility="visible"/>
+
+    <LinearLayout
+        android:id="@+id/tip5LinearLayout"
+        style="@style/closedMenuLinearLayout"
+        android:clickable="true">
+
+        <ImageButton
+            android:id="@+id/tip5ImageButton"
+            style="@style/imageButtons"
+            android:src="@drawable/ic_keyboard_arrow_right_24dp"/>
+
+        <TextView
+            android:id="@+id/tip5Title"
+            style="@style/closedMenuTextView"
+            android:layout_weight="1"
+            android:text="@string/tip5Title"/>
+    </LinearLayout>
+</LinearLayout>
